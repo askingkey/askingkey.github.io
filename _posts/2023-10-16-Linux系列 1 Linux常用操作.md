@@ -2,7 +2,7 @@
 title: 【Linux】 1 Linux常用操作
 date: 2023-10-16 16:52:00 +0800
 categories: [Linux, Basic]
-tags: [Notes]     # TAG names should always be lowercase
+tags: [notes]     # TAG names should always be lowercase
 pin: true
 mermaid: true
 math: true
