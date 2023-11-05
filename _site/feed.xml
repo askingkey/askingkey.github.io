@@ -3,20 +3,77 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>http://localhost:4000/</id>
   <title>Bioinfo-Key</title>
-  <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2023-11-04T15:14:48+08:00</updated>
+  <subtitle>'Gathering my faculties, I looked about me.'</subtitle>
+  <updated>2023-11-05T19:24:19+08:00</updated>
   <author>
-    <name>your_full_name</name>
+    <name>kyzhu</name>
     <uri>http://localhost:4000/</uri>
   </author>
   <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
     href="http://localhost:4000/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
-  <rights> © 2023 your_full_name </rights>
+  <rights> © 2023 kyzhu </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>非常简单的生信指北</title>
+    <link href="http://localhost:4000/posts/%E7%94%9F%E4%BF%A1%E6%8C%87%E5%8C%97/" rel="alternate" type="text/html" title="非常简单的生信指北" />
+    <published>2023-11-05T16:52:00+08:00</published>
+  
+    <updated>2023-11-05T19:07:44+08:00</updated>
+  
+    <id>http://localhost:4000/posts/%E7%94%9F%E4%BF%A1%E6%8C%87%E5%8C%97/</id>
+    <content src="http://localhost:4000/posts/%E7%94%9F%E4%BF%A1%E6%8C%87%E5%8C%97/" />
+    <author>
+      <name>kyzhu</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="Tutorial" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  本生信小白斗胆写一篇指北来谈谈自己学习生物信息的路径，若有谬误还请海涵～
+
+
+0 学习资源推荐
+
+
+  最快的学习路径是：直接去做项目/复现项目，也可以看了别人咋写的，手打一遍运行，更改一下里面的一些内容或者输入然后看输出会有啥变化。
+And 书籍和教程太多，很有可能是看不完的。我个人建议把一些经典的书当作字典或工具书来看（需要什么方面的知识就去翻一翻），把各大生信教程/书全部啃完大概率会磨灭你对生信的兴趣Orz。
+
+
+
+  科学上网方法
+    
+      XMRth公告板
+      都是要学生信的人了肯定能看懂网站的指引的，个人建议使用最贵的那一档套餐，一劳永逸
+      提示：之后的部分网站都需要科学上网
+    
+  
+  生信全套教学
+    
+      https://book.ncrnalab.org/teaching/ 清华大学出品的进阶版生信全系列课程...
+    </summary>
+  
+
+  </entry>
 
 </feed>
 
