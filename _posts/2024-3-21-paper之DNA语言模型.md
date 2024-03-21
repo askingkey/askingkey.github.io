@@ -189,9 +189,7 @@ LD是指，在基因组的某些区域内，不同的基因位点之间存在着
 
    这个图曾困扰了我很久...我最后的理解是这样的。$r^2$代表两个SNP之间的关联度，$r^2$越高，代表LD越强。如果突变周围的环境不同，GPN可以给彼此处于强LD的突变（两个黄色的点）以截然不同的评分。但GWAS会给处于强LD的一个中性突变和一个功能性突变（最右边的一个黄点和一个叉号）相似的分数。
 
-   为了解决这种差异，作者又进一步设计了一个分数GPN × LD，
-
-   $\begin{gathered}\mathrm{LDScore}_i=-\sum_j r_{i j}^2 . \\ \mathrm{GPN} \times \mathrm{LD}_i=-\sum_j\left|\mathrm{GPN}_j\right| \cdot r_{i j}^2 .\end{gathered}$
+   为了解决这种差异，作者又进一步设计了一个分数GPN × LD，$\operatorname{LDScore}_i=-\sum_j r_{i j}^2$，$\mathrm{GPN} \times \mathrm{LD}_i=-\sum_j\left|\mathrm{GPN}_j\right| \cdot r_{i j}^2$，其中i和j代表不同的SNP。
 
    该分数通过LD加权GPN分数。利用这种方法，GPN × LD有效地区分了该示例基因座中的GWAS命中与非命中（上图的下半部分）。
 
