@@ -189,17 +189,24 @@ LD是指，在基因组的某些区域内，不同的基因位点之间存在着
 
    这个图曾困扰了我很久...我最后的理解是这样的。$r^2$代表两个SNP之间的关联度，$r^2$越高，代表LD越强。如果突变周围的环境不同，GPN可以给彼此处于强LD的突变（两个黄色的点）以截然不同的评分。但GWAS会给处于强LD的一个中性突变和一个功能性突变（最右边的一个黄点和一个叉号）相似的分数。
 
-   为了解决这种差异，作者又进一步设计了一个分数GPN × LD，$\operatorname{LDScore}_i=-\sum_j r_{i j}^2$，$\mathrm{GPN} \times \mathrm{LD}_i=-\sum_j\left|\mathrm{GPN}_j\right| \cdot r_{i j}^2$，其中i和j代表不同的SNP。
+   为了解决这种差异，作者又进一步设计了一个分数GPN × LD，
+$$
+\operatorname{LDScore}_i=-\sum_j r_{i j}^2 \text {. }
+$$
+$$
+\mathrm{GPN} \times \mathrm{LD}_i=-\sum_j\left|\mathrm{GPN}_j\right| \cdot r_{i j}^2
+$$
+   其中i和j代表不同的SNP。
 
-   该分数通过LD加权GPN分数。利用这种方法，GPN × LD有效地区分了该示例基因座中的GWAS命中与非命中（上图的下半部分）。
+该分数通过LD加权GPN分数。利用这种方法，GPN × LD有效地区分了该示例基因座中的GWAS命中与非命中（上图的下半部分）。
 
-   * 【其他的GPN × LD的优势】在整个基因组和所有性状中，GPN × LD 分数的尾部极大地富集了 GWAS 的命中率，远高于原始 GPN 分数的尾部。
-
-     ![fig62.png](https://s2.loli.net/2024/03/21/bLr8dUEyqzeQRnv.png)
-
-   * 通过分析OR值，我们发现与 GPN × LD 分数的上部 99% 相比，GPN × LD 分数的下部 1% 的 SNP 在 GWAS 命中富集了 10.3 倍，而其他方法观察到的富集不到 7.5 倍。
-
-     ![fig63.png](https://s2.loli.net/2024/03/21/Vj3RJp9w4ZP1FId.png)
+* 【其他的GPN × LD的优势】在整个基因组和所有性状中，GPN × LD 分数的尾部极大地富集了 GWAS 的命中率，远高于原始 GPN 分数的尾部。
+  
+  ![fig62.png](https://s2.loli.net/2024/03/21/bLr8dUEyqzeQRnv.png)
+  
+* 通过分析OR值，我们发现与 GPN × LD 分数的上部 99% 相比，GPN × LD 分数的下部 1% 的 SNP 在 GWAS 命中富集了 10.3 倍，而其他方法观察到的富集不到 7.5 倍。
+  
+  ![fig63.png](https://s2.loli.net/2024/03/21/Vj3RJp9w4ZP1FId.png)
 
 ## 4 Discussion
 
