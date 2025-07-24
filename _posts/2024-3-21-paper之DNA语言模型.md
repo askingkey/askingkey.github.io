@@ -1,7 +1,7 @@
 ---
 title: 【文献阅读】DNA language models are powerful predictors of genome-wide variant effects
 date: 2024-3-21 13:00:00 +0800
-categories: [Paper]
+categories: [journal club]
 pin: true
 mermaid: true
 math: true

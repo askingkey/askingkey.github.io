@@ -1,7 +1,7 @@
 ---
 title: 【Linux】Linux常用操作
 date: 2023-10-16 16:52:00 +0800
-categories: [2023 Learning]
+categories: [plogs]
 pin: true
 mermaid: true
 math: true
