@@ -1,129 +1,50 @@
 ---
 layout: page
-title: About Me
-permalink: /about/
 ---
 
-<style>
-  .about {
-    max-width: 760px;
-    margin: 0 auto;
-    line-height: 1.75;
-    font-size: 1.05rem;
-  }
-  .about h1, .about h2 {
-    margin-top: 2rem;
-    margin-bottom: 0.75rem;
-  }
-  .about p {
-    margin: 0.9rem 0;
-  }
-  .timeline {
-    list-style: none;
-    padding-left: 1rem;
-    margin: 0;
-    border-left: 2px solid #eaeaea;
-  }
-  .timeline li {
-    position: relative;
-    padding: 0.4rem 0 0.4rem 0.75rem;
-  }
-  .timeline li::before {
-    content: "";
-    position: absolute;
-    left: -6px;
-    top: 0.9rem;
-    width: 10px;
-    height: 10px;
-    background: #999;
-    border-radius: 50%;
-  }
-  .timeline .time {
-    font-weight: 600;
-    margin-right: 0.35rem;
-  }
-  .tags {
-    list-style: none;
-    padding: 0;
-    margin: 0.25rem 0 0 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.4rem;
-  }
-  .tags li {
-    background: #f3f3f3;
-    border-radius: 9999px;
-    padding: 0.15rem 0.6rem;
-    font-size: 0.9rem;
-  }
-  figure {
-    margin: 2rem 0;
-    text-align: center;
-  }
-  figure img {
-    max-width: 100%;
-    border-radius: 12px;
-  }
-  figure figcaption {
-    color: #666;
-    font-size: 0.9rem;
-    margin-top: 0.4rem;
-  }
-</style>
-
-<article class="aboutme">
-  <header>
+<section class="aboutme">
+  <div class="post_content">
     <h1>About Me</h1>
-  </header>
+    <p>
+      👋 Hi! I’m <strong>Keyao Zhu (朱珂瑶)</strong> — a bioinformatics student who just finished a
+      <strong>B.S. at Soochow University (2021–2025)</strong> and will start my
+      <strong>PhD at Peking University’s Academy for Advanced Interdisciplinary Studies (2025– )</strong>.
+      I enjoy turning noisy, high‑dimensional biomedical data into clear, testable insights.
+    </p>
 
-  <section id="intro">
-    <p>👋 Hi! I’m <strong>Keyao Zhu (朱珂瑶)</strong> — a bioinformatics student who just finished a <strong>B.S. at Soochow University (2021–2025)</strong> and will start my <strong>PhD at Peking University’s Academy for Advanced Interdisciplinary Studies (2025– )</strong>. I enjoy turning noisy, high‑dimensional biomedical data into clear, testable insights.</p>
-  </section>
-
-  <section id="education">
     <h2>🎓 Education</h2>
-    <ul class="timeline">
-      <li>
-        <span class="time">2025–</span> PhD · Peking University, Academy for Advanced Interdisciplinary Studies
-      </li>
-      <li>
-        <span class="time">2021–2025</span> B.S. · Soochow University, Bioinformatics (Pasteur Elite Class); Minor in Computer Science
-      </li>
+    <ul>
+      <li><strong>2025–</strong> PhD · Peking University, Academy for Advanced Interdisciplinary Studies</li>
+      <li><strong>2021–2025</strong> B.S. · Soochow University, Bioinformatics (Pasteur Elite Class); Minor in Computer Science</li>
     </ul>
-  </section>
 
-  <section id="interests">
     <h2>🧬 Research Interests</h2>
-    <p>I’m broadly interested in <strong>spatial single‑cell multi‑omics</strong> and <strong>trustworthy machine learning for biomedicine</strong>—with a focus on <strong>interpretability, reproducibility, and clinical translation</strong>.</p>
-  </section>
+    <p>
+      Spatial single‑cell multi‑omics and trustworthy machine learning for biomedicine — with a focus on
+      <strong>interpretability, reproducibility, and clinical translation</strong>.
+    </p>
 
-  <section id="toolbox">
     <h2>💻 Toolbox</h2>
-    <p>Clean code, version control, and end‑to‑end reproducibility matter a lot to me. Tools I use include:</p>
-    <ul class="tags">
-      <li>Python</li>
-      <li>R</li>
-      <li>Linux</li>
-      <li>Git</li>
-      <li>Seurat/Scanpy</li>
-      <li>scikit‑learn</li>
-      <li>PyTorch</li>
-      <li>Statistics</li>
-    </ul>
-  </section>
+    <p>
+      Python &amp; R, Linux &amp; Git, Seurat/Scanpy, scikit‑learn/PyTorch, plus solid statistics.
+      Clean code, version control, and end‑to‑end reproducibility matter a lot to me.
+    </p>
 
-  <section id="life">
     <h2>☕ Beyond Work</h2>
-    <p>When I’m not debugging, you’ll find me fine‑tuning scientific figures’ typography, learning new things, or chasing a better espresso shot.</p>
-  </section>
+    <p>
+      When I’m not debugging, you’ll find me fine‑tuning scientific figures’ typography, learning new things,
+      or chasing a better espresso shot.
+    </p>
 
-  <section id="contact">
     <h2>📫 Contact</h2>
-    <p><a href="mailto:keyzh99@gmail.com">keyzh99@gmail.com</a> — always happy to talk about spatial omics, cfDNA, or trustworthy ML in biology. 🚀</p>
-  </section>
+    <p>
+      <a href="mailto:keyzh99@gmail.com">keyzh99@gmail.com</a> — always happy to talk about spatial omics, cfDNA,
+      or trustworthy ML in biology. 🚀
+    </p>
 
-  <figure>
-    <img src="https://starry99.github.io/catbook//assets/img/cat1.jpg" alt="A cat">
-    <figcaption>Occasional lab supervisor 🐱</figcaption>
-  </figure>
-</article>
+    <p>
+      <br><br>
+      <img src="{{ site.baseurl }}/assets/img/cat1.jpg" alt="cat">
+    </p>
+  </div>
+</section>

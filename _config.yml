@@ -8,7 +8,7 @@ baseurl: # the subpath of the site
 url: http://askingkey.github.io/catbook # the base hostname & protocol for your site
 
 permalink: /:year-:month/:title
-timezone:
+timezone: Asia/Beijing
 
 favicon: /assets/img/favicon.ico
 
