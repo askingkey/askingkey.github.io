@@ -21,7 +21,7 @@ user:
   name: Keyao Zhu
   pic: /assets/img/cat.jpg
   picAlt: "catbook"
-  job: Phd student
+  job: Phd student, Peking University
   aboutme: I have an orange kitty. # comment this out if you don't need the 'about' page.
 
 exclude:
